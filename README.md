@@ -17,7 +17,7 @@ following:
 
 
 ```text
-LLCS/
+DCA/
 ├── data
     ├── coco
         ├── annotations
@@ -34,7 +34,7 @@ LLCS/
         ├── train2017    # the same with coco
         ├── val2017      # the same with coco
 ```
-For LLCS with region proposals or RegionCLIP that uses region-text pairs, obtain `coco_pseudo_4764.json` or `coco_proposals.json` from [Drive](https://drive.google.com/drive/folders/11zG4nJffm0MbvA0Ph19p6jvJFj6VwRAH?usp=sharing). Put the json files under `data/coco`.
+For DCA with region proposals or RegionCLIP that uses region-text pairs, obtain `coco_pseudo_4764.json` or `coco_proposals.json` from [Drive](https://drive.google.com/drive/folders/11zG4nJffm0MbvA0Ph19p6jvJFj6VwRAH?usp=sharing). Put the json files under `data/coco`.
 
 ## Run
 ### Original Models 
@@ -43,7 +43,7 @@ To run LLCS, first obtain the original models from
 `checkpoints/` like the following:
 
 ```text
-LLCS/
+DCA/
 ├── checkpoints
     ├── EVA02_CLIP_B_psz16_s8B.pt
     ├── EVA02_CLIP_L_336_psz14_s6B.pt
