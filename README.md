@@ -1,4 +1,4 @@
-# Lynamic Context Alignment for Open-Vocabulary Dense Prediction (Under Review)
+# Dynamic Context Alignment for Open-Vocabulary Dense Prediction (Under Review)
 
 
 ## Installation
